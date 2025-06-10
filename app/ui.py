@@ -3,8 +3,7 @@ import requests
 import pandas as pd
 import re
 
-st.set_page_config(page_title="Resume Parser", layout="centered")
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Resume Parser", layout="wide")
 
 # Custom CSS to improve readability and allow scrolling
 st.markdown("""
